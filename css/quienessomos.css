@@ -1,0 +1,33 @@
+.quienessomos h1{
+    padding-top: 20px;
+}
+
+.quienessomos .doscolumas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.quienessomos .texto{
+    padding: 20px;
+}
+
+.quienessomos .texto p{
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.quienessomos .img{
+    padding: 20px;
+}
+
+.quienessomos .img img{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid #2C3E50;
+    opacity: 0.9;
+}
+
+.quienessomos .img img:hover{
+    opacity: 1;
+}

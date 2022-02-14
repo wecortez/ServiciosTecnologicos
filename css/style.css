@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+}
+
+/* ancho maximo, ancho total del valor máximo y centrar contenido*/
+.contenedor{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    margin-top: 63px;
+}
+
+/* agregar color de fondo */
+.contenedor nav{
+    background-color: #2C3E50;
+    position: fixed;
+    margin: -63px auto auto 0px;
+    width: 1300px;
+    z-index: 10;
+}
+
+/* Aplicar Flexbox */
+.contenedor nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* quita viñetas */
+.contenedor nav ul li{ 
+    list-style: none;
+}
+/* Quitar subarayado de "a", dar color y dar tamaño*/
+.contenedor nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    padding: 10px 20px;
+}
+
+/* al pasar el mouse cambie el formato de "a" */
+.contenedor nav ul li a:hover{
+    background-color: #fff;
+    color: #2C3E50;;
+}
+
+/* SERVICIOS */
+
+.contenedor h1{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contenedor .servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.contenedor .servicios > article img{
+    width: 100%;
+    height: 290px;
+}
+
+.contenedor .servicios > article a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2C3E50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contenedor .servicios > article div{
+    padding: 25px;
+}
+
+.contenedor .servicios > article div p{
+    text-align: justify;
+}
+
+.contenedor .servicios > article{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+/* FOOTER */
+footer{
+    background-color: #1B252F;
+}
+
+footer .contactos{
+    background-color: #2D3E50;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px;
+}
+
+footer .contactos >div h2,.contactos >div p{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+footer .contactos div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .contactos div ul li{
+    margin: 0px 10px;
+}
+
+footer .contactos div ul li a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+footer .contactos .fa-facebook-f{
+    padding: 10px 15px;
+}
+
+footer .contactos div ul li a:hover{
+    background-color: #fff;
+}
+
+footer .contactos .fa-facebook-f:hover{
+    color: blue;
+}
+
+footer .contactos .fa-google-plus-g:hover{
+    color: red;
+}
+
+footer .contactos .fa-twitter:hover{
+    color: #1C9CEA;
+}
+
+footer .contactos .fa-whatsapp:hover{
+    color: green;
+}
+
+footer .contactos .fa-linkedin-in:hover{
+    color: blue;
+}
+
+footer p{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+
